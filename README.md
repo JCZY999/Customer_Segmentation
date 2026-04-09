@@ -1,21 +1,21 @@
-**🧠 Customer Segmentation Project
-* 📌 Overview
+# 🧠 Customer Segmentation Project
+## 📌 Overview
 
 This project focuses on customer segmentation using machine learning techniques to identify distinct customer groups based on behavioral and demographic data. The goal is to help businesses better understand their customers and enable targeted marketing strategies, personalization, and improved ROI.
 
-* 🎯 Objectives
+## 🎯 Objectives
 Segment customers into meaningful groups
 Identify high-value vs low-value customers
 Support data-driven marketing decisions
 Enable personalized campaigns and retention strategies
-* 📊 Dataset
+## 📊 Dataset
 Source: (e.g., Kaggle / internal CRM / simulated dataset — update this)
 Size: (e.g., 10,000 customers)
 Key features:
 Demographics (age, gender, location)
 Behavioral data (purchase frequency, recency, monetary value)
 Engagement metrics (website visits, campaign responses)
-* ⚙️ Methodology
+## ⚙️ Methodology
 1. Data Preprocessing
 Handling missing values
 Feature scaling (StandardScaler / MinMaxScaler)
@@ -30,7 +30,7 @@ Customer lifetime value (optional)
 Derived behavioral metrics
 4. Modeling
 
-* Algorithms used:
+## Algorithms used:
 
 K-Means Clustering
 Hierarchical Clustering (optional)
@@ -49,7 +49,7 @@ Key business insights:
 Segment A contributes most revenue
 Segment B shows churn risk
 Segment C responds best to promotions
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Python
 Pandas, NumPy
 Scikit-learn
