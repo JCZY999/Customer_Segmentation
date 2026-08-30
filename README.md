@@ -23,7 +23,8 @@ The output is not merely a cluster label. Each segment is translated into a camp
 
 | File | Focus |
 |---|---|
-| [`customer_segmentation_case_study.py`](customer_segmentation_case_study.py) | Standalone, reproducible Python case study that exports assignments, profiles, and charts |
+| [`customer-segmentation-case-study.ipynb`](customer-segmentation-case-study.ipynb) | Full narrative case study with Python code, charts, results, and campaign recommendations |
+| [`customer_segmentation_case_study.py`](customer_segmentation_case_study.py) | Standalone script that exports assignments, profiles, and charts |
 | [`customer-segmentation.ipynb`](customer-segmentation.ipynb) | Mall-customer exploration and comparison of clustering methods |
 | [`customer-segmentation-k-means-analysis.ipynb`](customer-segmentation-k-means-analysis.ipynb) | Detailed K-Means workflow and visual analysis |
 | [`customer-segmentation-and-market-basket-analysis.ipynb`](customer-segmentation-and-market-basket-analysis.ipynb) | RFM segmentation and association-rule extension for retail transactions |
