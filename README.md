@@ -21,8 +21,9 @@ The output is not merely a cluster label. Each segment is translated into a camp
 
 ## Repository contents
 
-| Notebook | Focus |
+| File | Focus |
 |---|---|
+| [`customer_segmentation_case_study.py`](customer_segmentation_case_study.py) | Standalone, reproducible Python case study that exports assignments, profiles, and charts |
 | [`customer-segmentation.ipynb`](customer-segmentation.ipynb) | Mall-customer exploration and comparison of clustering methods |
 | [`customer-segmentation-k-means-analysis.ipynb`](customer-segmentation-k-means-analysis.ipynb) | Detailed K-Means workflow and visual analysis |
 | [`customer-segmentation-and-market-basket-analysis.ipynb`](customer-segmentation-and-market-basket-analysis.ipynb) | RFM segmentation and association-rule extension for retail transactions |
@@ -35,10 +36,17 @@ Income and spending score define the clusters. Age and gender are reserved for d
 
 ## Reproduce the case study
 
-Install the core packages:
+Install the core packages and run the standalone case study:
 
 ```bash
 pip install pandas matplotlib scikit-learn jupyter
+python customer_segmentation_case_study.py
+```
+
+The script downloads the public dataset by default and writes three CSV tables plus three PNG charts to `outputs/`. To use a local file or change the destination:
+
+```bash
+python customer_segmentation_case_study.py --data Mall_Customers.csv --output-dir results
 ```
 
 Load and validate the data:
